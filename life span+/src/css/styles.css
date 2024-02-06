@@ -1,0 +1,737 @@
+body{
+    background-image: url(../images/wh.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+}
+
+ul.menu{
+    font-size: 20px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    overflow: hidden;
+}
+
+li.menu{
+    float: left;
+}
+
+li a{
+    display:block;
+    color:white;
+    text-align: center;
+    padding:14px;
+    text-decoration:none;
+}
+
+li a:hover{
+    background-color: greenyellow;
+}
+
+.mainMenu{
+	font-size: 25px;
+}
+
+.home{
+    opacity: 0.5;
+}
+
+.home:hover{
+    opacity:1.0;
+}
+.formFont{
+    font-size: 25px;
+}
+
+.regPage{
+    background-image: url(../images/formBackground.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+input[type=text] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+
+  input[type=phone] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+
+  input[type=email] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+
+  input[type=date] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+
+  input[type=text] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+
+  .goal {
+    width: 100%;
+    }
+    
+  
+  input[type=password] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+
+  .login{
+    background-image: url(../images/dc.jpg);
+  }
+
+li{
+  list-style:none;
+}
+ul {
+  list-style-type: none;
+  margin: 4;
+  padding: 7;
+}
+
+.co
+{
+  background: url(../images/ho.jpeg);
+  
+  background-size:auto;
+  display:flex;
+  background-repeat:repeat;
+  max-height: 1000px;
+  
+  
+}
+
+.bak
+{
+  background-color:DFDDD1;
+}
+
+.fot{
+  background-color: rgb(39, 37, 37);
+  outline-style:solid;
+  display:block;
+  margin-bottom:solid;
+
+}
+
+.para
+{
+  border-style:solid;
+  border-color:white;
+  padding:10px;
+  
+
+  
+}
+.box
+{
+  position:relative;
+  width:400px;
+  height:400px;
+  backface-visibility: visible;
+  border:2px solid blue;
+  
+}
+
+.btn {
+  border: 2px;
+  color: rgb(126, 19, 19);
+  padding: 15px 32px;
+  font-size: 16px;
+  margin: 4px 2px;
+  
+  
+}
+.btn:hover{
+  color:red;
+}
+
+
+.newsLayout
+{
+  display:flex;
+  padding:5px;
+  
+  color: black;
+  
+}
+
+
+#btn1
+{
+  margin-right: 15px;
+  padding:5px;
+  width:120px;
+  height:40px;
+  color: black;
+  background-color: aquamarine;
+  border: 0ch;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  transition-duration: 0.4s;
+}
+
+#btn1:hover
+{
+  background-color: rgb(11, 169, 153);
+}
+
+#btn2
+{
+  margin-right: 15px;
+  padding:5px;
+  width:120px;
+  color: black;
+  background-color: aquamarine;
+  border: 0ch;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  
+ 
+}
+
+#btn2:hover
+{
+  background-color: rgb(11, 169, 153);
+}
+#btn3
+{
+  margin-right: 15px;
+  padding:5px;
+  width:120px;
+  color: black;
+  background-color: aquamarine;
+  border: 0ch;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+ 
+}
+#btn3:hover
+{
+  background-color: rgb(11, 169, 153);
+}
+
+#btn4
+{
+  margin-right: 15px;
+  padding:5px;
+  width:120px;
+  color: black;
+  background-color: aquamarine;
+  border: 0ch;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+ 
+}
+#btn4:hover
+{
+  background-color: rgb(11, 169, 153);
+}
+
+#btn5
+{
+  margin-right: 15px;
+  padding:5px;
+  width:120px;
+  color: black;
+  background-color: aquamarine;
+  border: 0ch;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+#btn5:hover
+{
+  background-color: rgb(11, 169, 153);
+}
+
+#btn6
+{
+  margin-right: 15px;
+  padding:5px;
+  width:120px;
+  color: black;
+  background-color: aquamarine;
+  border: 0ch;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+#btn6:hover
+{
+  background-color: rgb(11, 169, 153);
+}
+
+
+
+
+
+
+
+
+/*   */
+
+
+
+
+
+
+/* EX-goal.html */
+
+.h1{
+  color:rgb(255, 255, 255);
+}
+
+
+
+.content{
+  font-family: sans-serif;
+  width:109%;
+  height:100vh;
+  background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1));
+  background: url(../images/gh.jpg);
+  background-position: center;
+  background-size: cover;
+  clip-path: polygon(100% 0, 100% 90%, 62% 100%, 0 89%, 0 0);
+}
+
+
+.dir
+{
+  position: absolute;
+  transform: translate(60%,400%);
+  left:40%;
+  top:10%;
+
+
+  
+}
+
+.fnt
+{
+    size: 7px;
+    color: white;
+    font-size: 60px;
+}
+
+
+.bttn
+{
+  padding:9px 25px 9px 25px;
+  border-style:solid;
+  border-color: chartreuse;
+  background-color:transparent;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  font-size: 1.2rem;
+  color: rgb(238, 241, 234);
+ 
+
+}
+
+.bttn:hover
+{
+  background-color: rgb(99, 220, 121);
+}
+
+/*   inside .html */
+.gallery
+
+{
+  min-height: 40vh;
+  padding:6px;
+  display:inline-block;
+  color:red;
+}
+
+.gallery {
+  margin: 5px;
+  border: 3px solid #ccc;
+  object-fit:cover;
+  background-color: rgba(206, 243, 245, 0.7);
+  display: flex;
+}
+
+
+#butn1
+{
+  padding:6px;
+  padding-right:19px;
+  padding-left: 19px;
+  margin:7px;
+  border-radius: 3px;
+  border:none;
+  background-color:rgb(186, 230, 103);
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+
+#butn1:hover
+{
+  background-color: aqua;
+}
+
+#dec1
+{
+  text-align:justify;
+}
+
+
+#butn2
+{
+  padding:6px;
+  padding-right:19px;
+  padding-left: 19px;
+  margin:7px;
+  border-radius: 3px;
+  border:none;
+  background-color:rgb(186, 230, 103);
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+#butn2:hover
+{
+  background-color: aqua;
+}
+
+
+#butn3
+{
+  padding:6px;
+  padding-right:19px;
+  padding-left: 19px;
+  margin:7px;
+  border-radius: 3px;
+  border:none;
+  background-color:rgb(186, 230, 103);
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+#butn3:hover
+{
+  background-color: aqua;
+}
+
+
+#butn4
+{
+  padding:6px;
+  padding-right:19px;
+  padding-left: 19px;
+  margin:7px;
+  border-radius: 3px;
+  border:none;
+  background-color:rgb(186, 230, 103);
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+#butn4:hover
+{
+  background-color: aqua;
+}
+
+
+#butn5
+{
+  padding:6px;
+  padding-right:19px;
+  padding-left: 19px;
+  margin:7px;
+  border-radius: 3px;
+  border:none;
+  background-color:rgb(186, 230, 103);
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+#butn5:hover
+{
+  background-color: aqua;
+}
+
+
+#butn6
+{
+  padding:6px;
+  padding-right:19px;
+  padding-left: 19px;
+  margin:7px;
+  border-radius: 3px;
+  border:none;
+  background-color:rgb(186, 230, 103);
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+#butn6:hover
+{
+  background-color: aqua;
+}
+
+
+#butn7
+{
+  padding:6px;
+  padding-right:19px;
+  padding-left: 19px;
+  margin:7px;
+  border-radius: 3px;
+  border:none;
+  background-color:rgb(186, 230, 103);
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+#butn7:hover
+{
+  background-color: aqua;
+}
+
+
+.tips
+{
+  background-color: rgb(125, 219, 219);
+
+}
+
+.js
+{
+  position: absolute;
+  right:13%;
+  top:148%;
+
+
+}
+
+
+
+tr
+{
+  margin: 3px;
+  padding: 10px;
+}
+
+.tbl
+{
+  border-collapse:collapse;
+  border-color: brown;
+  margin: 25px 0;
+  font-size: 1rem;
+  min-height: 150px;
+  background-color: rgb(189, 228, 231);
+  padding: 10px;
+
+}
+
+
+td{
+
+  background-color:  rgb(162, 222, 237);
+  border: 2px solid black;
+  padding: 3px;
+  color: rgb(3, 3, 71);
+
+}
+
+th
+{
+  color:darkblue;
+  padding: 10px;
+
+
+}
+
+.tb2
+{
+   
+  position: absolute;
+  right:13%;
+  top:203%;
+  border-collapse: collapse;
+}
+
+.tb2 th
+{
+  background-color: rgb(188, 125, 248);
+}
+
+.tb3
+{
+  position: absolute;
+  right:13%;
+  top:255%;
+  border-collapse: collapse;
+}
+
+.tb3 th
+{
+  background-color: chartreuse;
+}
+
+.tb4
+{ position: absolute;
+  right:13%;
+  top:305%;
+  border-collapse: collapse;
+}
+
+.tb4 th
+{
+  background-color: rgb(230, 102, 183);
+}
+
+
+.tb5
+{
+  position: absolute;
+  right:13%;
+  top:357%;
+  border-collapse: collapse;
+}
+
+.tb5 th{
+
+  background-color: rgb(85, 236, 226);
+}
+
+
+
+.tb6
+{
+  position: absolute;
+  right:13%;
+  top:409%;
+  border-collapse: collapse;
+}
+
+.tb6 th{
+
+  background-color: rgb(45, 231, 159);
+}
+
+
+.tb7
+{
+  position: absolute;
+  right:13%;
+  top:459%;
+  border-collapse: collapse;
+
+}
+
+.tb7 th{
+
+  background-color: rgb(192, 217, 65);
+}
+
+.dec1
+{
+  background-color: azure;
+}
+
+/* dietplan.php */
+
+/* form */
+
+
+.dietform
+{
+  background-color: antiquewhite;
+  width:800px;
+	margin:0px;
+	padding:7px;
+	background:rgb(169, 231, 228);
+  height:120vh;
+  outline-style: solid;
+  outline-color:blue;
+  align-content:center;
+
+  
+}
+
+.box1
+{
+  padding:10px 25px 10px 25px;
+  margin:5px;
+  border:none;
+  border-radius: 10px;
+  color: rgb(15, 5, 78);
+  background-color: rgb(27, 162, 207);
+
+}
+
+.box1:hover
+{
+  background-color: aqua;
+}
+
+
+.sub
+{
+  padding:6px 12px 6px 12px;
+}
+
+
+/* checkreq.php css */
+#use
+{
+  background-color: rgb(107, 225, 236);
+  color: #010606;
+  border: none;
+  padding:10px 20px 10px 20px;
+  position: absolute;
+  left:15%;
+  top: 80%;
+}
+
+#use:hover
+{
+  background-color: chartreuse;
+}
+.tbl
+{
+  border-collapse: collapse;
+}
+
+
+.dvtag
+{
+  background-color: azure;
+ 
+}
+
+#ig
+{
+  align-items: center;
+  display: inline;
+  box-shadow: 10px 10px 5px rgb(63, 213, 213);
+  
+}
+
+.dv
+{
+  color: #65a30e;
+  font-size: 35px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.h2
+{
+  color: #65a30e;
+  font-size: 35px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}

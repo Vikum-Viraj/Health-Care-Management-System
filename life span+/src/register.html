@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script>document.write(Date());</script>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/myScript.js"></script>
+
+    <title>Life Span+</title>
+</head>
+<body>
+    <center>
+        <image src="images/logo.png" width="250px" length="250px">
+        <h1 style="font-size: 40px;">Life Span+</h1>
+        <h3 style="font-style: oblique; font-size: 25px;">Your partnet in life & fitness</h3>
+    </center>
+
+    <hr>
+    
+    <ul class="menu">
+        <li class="menu"><a href="index.html">Home</a></li>
+        <li class="menu"><a href="#">Registration</a></li>
+        <li class="menu"><a href="">Log in</a></li>
+        <li class="menu"><a href="">Contact us</a></li>
+    </ul>
+
+    <br>
+
+    <center><h1>Registration</h1></center>
+    <br/>
+
+    <center>
+        
+    <form class="regPage" action="#" onsubmit="validatePW()">
+        <br/>
+        <font size="4px">Full name<br/>
+        <input type="text" name="FullName" placeholder="Ex. Kamal Perera" required><br/><br/>
+
+        Telephone<br/>
+        <input type="phone" name="tel" placeholder="071XXXXXXX" pattern="[0-9]{10}" required><br/><br/>
+
+        Email<br/>
+        <input type="email" name="email" placeholder="EX. abc@gmail.com" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" required><br/><br/>
+
+        Gender<br/>
+        <input type="radio" name="gender" checked>Male
+        <input type="radio" name="gender">Female<br/><br/>
+
+        Height<br/>
+        <input type="text" name="height" placeholder="Height in centimeters" pattern="[0-9]" required><br/><br/>
+
+        Weight<br/>
+        <input type="text" name="weight" placeholder="Weight in Kg" pattern="[0-9]" required><br/><br/>
+
+        Date Of Birth<br/>
+        <input type="date" name="dob" required><br/><br/>
+
+        Goal<br/>
+        <select name="goal" id="goal" style="width: 50%; height: 45px;">
+            <option value="loose" id="loose">Loose weight</option>
+            <option value="gain" id="gain">Gain weight</option>
+            <option value="maintain" id="maintain">Maintain weight</option>
+        </select><br/><br/>
+
+        User Name<br/>
+        <input type="text" id="userName" name="userName" required><br/><br/>
+
+        Password<br/>
+        <input type="password" id="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}" required><br/><br/>
+        <!--"Must contain at least one number and one uppercase and lowercase letter, and at least 6 or more characters"-->
+
+        Re-Enter Password<br/>
+        <input type="password" id="cnfrmPassword" required><br/><br/>
+
+        <input type="checkbox" id="checkBox" onclick="policy()">Accept privacy policy and terms<br/><br/>
+
+        <center>
+            <input type="submit" value="Register" id="regBtn" disabled>
+        </center>
+        <br/>
+    </font>
+
+    </form>
+    </center>
+    
+    <br>
+    <hr>
+
+    <center>
+        <h2>Created By Group 6</h2>
+    </center>
+    
+</body>
+</html>
